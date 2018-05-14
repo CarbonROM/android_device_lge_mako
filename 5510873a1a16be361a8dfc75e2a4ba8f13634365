@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher F869AC8F0CA7A69B 1526314902 +0530\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_lge_mako\nnonce 1526314919-24519B86C1E9CD8C326AE7684670FD97DAFB8481\n\n0000000000000000000000000000000000000000 51abfe1341c2f82098cbfad55a94ba42421c9968 refs/for/cr-6.1\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEE+j0M3xgJqoWGl7cK+GmsjwynppsFAlr5t5YACgkQ+Gmsjwyn\nppuHlwf/es7w5/Rt/fgUqB+MoKRBY/1XYO1ej9Q9c2tjI0U7eyDPdtWTwZg2iiUV\nX9TB4kh9tyNiSoc3L6dV7HiNmST/JCEhxvv0bTSRyPrbeZRcJhb9jsSJmSUT3FXT\nNMAyxtb2tMJBlBELpH9MNCzG50ntnjgtSHEPgc/Z07qXwjfEEXlj+b/G7aJBywHR\nKUA6G3mgDbYs3aq6y63LDVCeFXGzZdd0WaQaoStm/VcH23ST0ixHjKHjgB73j4uI\neqprZqX2LzK7caDLtdAh8vvWhqFc4YbCK4FPD7PGlHgGrhe79svTPkPktU6ig4/Y\n3tbvOP1w1uavkf4NdL8we11ixPnrZw\u003d\u003d\n\u003dkf6U\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
