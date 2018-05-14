@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2011 The Android Open-Source Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,9 +27,6 @@ $(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
 
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
@@ -82,7 +80,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@1.0-impl \
     camera.mako \
-    libmmcamera_interface2 \
     libmmcamera_interface \
     libmm-omxcore \
     libdivxdrmdecrypt \
@@ -98,7 +95,7 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-impl
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -215,10 +212,6 @@ PRODUCT_PACKAGES += \
     init.qcom.devwait.sh \
     ueventd.rc \
     ueventd.mako.rc
-
-# Recorder
-PRODUCT_PACKAGES += \
-    Recorder
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
