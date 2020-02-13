@@ -130,9 +130,6 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 # Healthd
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# Exclude serif fonts for saving system.img size.
-EXCLUDE_SERIF_FONTS := true
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.mako
 
