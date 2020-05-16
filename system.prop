@@ -19,6 +19,8 @@ dalvik.vm.dex2oat-swap=false
 drm.service.enabled=true
 
 # Graphics
+debug.sf.enable_gl_backpressure=1
+debug.sf.latch_unsignaled=1
 ro.opengles.version=196608
 ro.sf.lcd_density=320
 qemu.sf.lcd_density=320
